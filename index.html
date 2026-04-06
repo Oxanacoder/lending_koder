@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Вайбкодер — сайты, понятные людям</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..900;1,9..144,400..900&family=Figtree:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="logo" href="#top">Вайбкодер</a>
+    <nav class="nav" aria-label="Основная навигация">
+      <a href="#about">Обо мне</a>
+      <a href="#services">Услуги</a>
+      <a href="#process">Подход</a>
+      <a href="#projects">Проекты</a>
+      <a href="#contacts" class="nav-cta">Контакты</a>
+    </nav>
+    <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="mobile-nav" aria-label="Открыть меню">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <div id="mobile-nav" class="mobile-nav" hidden>
+    <a href="#about">Обо мне</a>
+    <a href="#services">Услуги</a>
+    <a href="#process">Подход</a>
+    <a href="#projects">Проекты</a>
+    <a href="#contacts">Контакты</a>
+  </div>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero__grid">
+        <div class="hero__visual reveal">
+          <div class="hero__blob-wrap" data-parallax="-0.22" aria-hidden="true">
+            <div class="hero__blob"></div>
+          </div>
+          <div class="hero__photo-frame">
+            <img src="assets/hero-photo.png" alt="Портрет" width="640" height="800" class="hero__photo" />
+          </div>
+        </div>
+        <div class="hero__content" data-parallax="0.08">
+          <p class="eyebrow reveal" style="--d: 0.05s">Web / Digital / AI</p>
+          <h1
+            class="hero__title hero__title--gradient hero-type"
+            id="hero-heading"
+            aria-label="Делаю сайты, которые понятны людям и помогают вам получать клиентов"
+          >
+            <span class="hero-type__wrap">
+              <span class="hero-type__content"></span
+              ><span class="hero-type__cursor" aria-hidden="true">|</span>
+            </span>
+          </h1>
+          <p class="hero__lead reveal" style="--d: 0.2s">
+            Продумываю не только внешний вид, но и то, как человек воспринимает сайт,
+            понимает вас и принимает решение обратиться
+          </p>
+          <div class="hero__actions reveal" style="--d: 0.28s">
+            <a class="btn btn--primary" href="#projects">Посмотреть проекты</a>
+            <a class="btn btn--ghost" href="#contacts">Обсудить задачу</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section section--about">
+      <div class="section__inner">
+        <h2 class="section__title reveal">Делаю сайты, с которыми вам спокойно и уверенно</h2>
+        <div class="about__grid reveal">
+          <div class="about__text prose">
+            <p>
+              Я создаю сайты, которые легко читать, приятно смотреть и которым доверяют.
+            </p>
+            <p>
+              Без перегруженности, сложных формулировок и «непонятно для кого».
+              Человек заходит — и сразу понимает: куда он попал, чем вы полезны и почему стоит обратиться.
+            </p>
+            <p>
+              Я работаю с проектом целиком: от идеи и структуры до текста и внешнего вида.
+            </p>
+            <p>
+              Вы можете прийти без чёткого понимания — я помогу собрать всё в понятную и работающую систему.
+            </p>
+            <p class="pullquote">Моя задача — чтобы ваш сайт не просто был, а действительно работал на вас.</p>
+          </div>
+          <aside class="about__list-card">
+            <h3 class="about__list-title">Что я делаю</h3>
+            <ul class="checklist">
+              <li>лендинги</li>
+              <li>сайты для экспертов и специалистов</li>
+              <li>портфолио</li>
+              <li>промо-страницы</li>
+              <li>простые и понятные digital-решения</li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section section--services">
+      <div class="section__inner">
+        <h2 class="section__title reveal">Чем я могу помочь</h2>
+        <div class="cards cards--6">
+          <article class="card reveal" style="--d: 0s">
+            <span class="card__idx">01</span>
+            <h3 class="card__title">Сайт под ваши услуги</h3>
+            <p class="card__text">Помогаю объяснить, чем вы занимаетесь, простым и понятным языком</p>
+          </article>
+          <article class="card reveal" style="--d: 0.04s">
+            <span class="card__idx">02</span>
+            <h3 class="card__title">Лендинг для привлечения клиентов</h3>
+            <p class="card__text">Страница, которая аккуратно подводит человека к решению написать вам</p>
+          </article>
+          <article class="card reveal" style="--d: 0.08s">
+            <span class="card__idx">03</span>
+            <h3 class="card__title">Портфолио</h3>
+            <p class="card__text">Сайт, который показывает ваш уровень и вызывает доверие</p>
+          </article>
+          <article class="card reveal" style="--d: 0.12s">
+            <span class="card__idx">04</span>
+            <h3 class="card__title">Структура и тексты</h3>
+            <p class="card__text">Помогаю разложить информацию так, чтобы её действительно читали и понимали</p>
+          </article>
+          <article class="card reveal" style="--d: 0.16s">
+            <span class="card__idx">05</span>
+            <h3 class="card__title">Простой и аккуратный дизайн</h3>
+            <p class="card__text">Без перегрузки — только то, что помогает воспринимать и принимать решение</p>
+          </article>
+          <article class="card reveal" style="--d: 0.2s">
+            <span class="card__idx">06</span>
+            <h3 class="card__title">Быстрый запуск</h3>
+            <p class="card__text">Собираю первую версию сайта в разумные сроки, без затягивания</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="process" class="section section--process">
+      <div class="section__inner">
+        <h2 class="section__title reveal">Как я работаю</h2>
+        <ol class="timeline reveal">
+          <li class="timeline__step">
+            <span class="timeline__num">01</span>
+            <div>
+              <h3>Разбираюсь в задаче</h3>
+              <p>Сначала понимаю, чем вы занимаетесь и какой результат вам нужен</p>
+            </div>
+          </li>
+          <li class="timeline__step">
+            <span class="timeline__num">02</span>
+            <div>
+              <h3>Упрощаю и структурирую</h3>
+              <p>Перевожу сложное в понятное: что сказать, в каком порядке и как это подать</p>
+            </div>
+          </li>
+          <li class="timeline__step">
+            <span class="timeline__num">03</span>
+            <div>
+              <h3>Собираю сайт</h3>
+              <p>Делаю аккуратный, понятный и современный сайт, с которым вам комфортно работать</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="projects" class="section section--projects">
+      <div class="section__inner section__inner--wide">
+        <header class="section__header reveal">
+          <h2 class="section__title section__title--flush">Примеры работ</h2>
+          <p class="section__lead">
+            Несколько направлений: от упаковки эксперта до концепта страницы — аккуратная подача и понятный смысл.
+          </p>
+        </header>
+        <div class="projects">
+          <article class="project-card reveal">
+            <div class="project-card__image">
+              <img src="images/site_concept.jpg" alt="Проект: сайт для специалиста" width="800" loading="lazy" decoding="async" />
+              <div class="project-card__shade" aria-hidden="true"></div>
+              <div class="project-card__caption" aria-hidden="true">
+                <p>Помогла упаковать услуги и сделать их понятными для клиентов</p>
+              </div>
+            </div>
+            <div class="project-card__content">
+              <span class="project-card__eyebrow">Специалист</span>
+              <h3>Сайт для специалиста</h3>
+              <p class="project-card__result"><strong>Результат:</strong> стало проще объяснять и получать отклики</p>
+            </div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-card__image">
+              <img src="images/landing_service.jpg" alt="Проект: лендинг под услугу" width="800" loading="lazy" decoding="async" />
+              <div class="project-card__shade" aria-hidden="true"></div>
+              <div class="project-card__caption" aria-hidden="true">
+                <p>Собрана структура и тексты, которые ведут человека к обращению</p>
+              </div>
+            </div>
+            <div class="project-card__content">
+              <span class="project-card__eyebrow">Лендинг</span>
+              <h3>Лендинг под услугу</h3>
+              <p class="project-card__result"><strong>Результат:</strong> увеличилось количество заявок</p>
+            </div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-card__image">
+              <img src="images/portfolio.jpg" alt="Проект: портфолио" width="800" loading="lazy" decoding="async" />
+              <div class="project-card__shade" aria-hidden="true"></div>
+              <div class="project-card__caption" aria-hidden="true">
+                <p>Оформлен опыт и работы в аккуратный и понятный формат</p>
+              </div>
+            </div>
+            <div class="project-card__content">
+              <span class="project-card__eyebrow">Портфолио</span>
+              <h3>Портфолио</h3>
+              <p class="project-card__result"><strong>Результат:</strong> усилилось ощущение профессионализма</p>
+            </div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-card__image">
+              <img src="images/concept_page.jpg" alt="Проект: концепт страницы" width="800" loading="lazy" decoding="async" />
+              <div class="project-card__shade" aria-hidden="true"></div>
+              <div class="project-card__caption" aria-hidden="true">
+                <p>Разработка идеи и подачи под задачу</p>
+              </div>
+            </div>
+            <div class="project-card__content">
+              <span class="project-card__eyebrow">Концепт</span>
+              <h3>Концепт страницы</h3>
+              <p class="project-card__result"><strong>Результат:</strong> современный и запоминающийся формат</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--why">
+      <div class="section__inner">
+        <h2 class="section__title reveal">Почему со мной удобно работать</h2>
+        <div class="why__layout reveal">
+          <div class="why__lead prose">
+            <p class="why__hook">Я не усложняю.</p>
+            <p>
+              Объясняю простым языком, помогаю разобраться и беру на себя структуру и подачу.
+            </p>
+            <p>
+              Вам не нужно заранее всё продумывать — я помогу собрать сайт из того, что у вас уже есть.
+            </p>
+          </div>
+          <ul class="why__bullets">
+            <li>понятно, что происходит</li>
+            <li>спокойно в процессе</li>
+            <li>аккуратно в результате</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="tools" class="section section--tools">
+      <div class="section__inner">
+        <h2 class="section__title reveal">Как я работаю</h2>
+        <p class="section__subtitle reveal">Инструменты</p>
+        <ul class="tools reveal">
+          <li>ChatGPT</li>
+          <li>Cursor</li>
+          <li>HTML / CSS / JS</li>
+          <li>Figma</li>
+          <li>AI-инструменты</li>
+        </ul>
+        <p class="tools__note reveal">
+          Использую технологии, чтобы сделать быстрее и лучше,
+          но думаю в первую очередь о людях, которые будут смотреть сайт
+        </p>
+      </div>
+    </section>
+
+    <section class="section section--audience">
+      <div class="section__inner">
+        <h2 class="section__title reveal">Кому подойдёт моя работа</h2>
+        <ul class="audience reveal">
+          <li>специалистам</li>
+          <li>экспертам</li>
+          <li>тем, кто продаёт услуги</li>
+          <li>тем, кому сложно объяснить, чем он занимается</li>
+          <li>тем, кто хочет аккуратный и понятный сайт</li>
+          <li>тем, кто не хочет разбираться в этом самостоятельно</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="manifest">
+      <div class="section__inner">
+        <blockquote class="manifest__quote reveal">
+          Хороший сайт — это когда человеку всё понятно и у него появляется желание вам написать
+        </blockquote>
+      </div>
+    </section>
+
+    <section id="contacts" class="section section--cta">
+      <div class="section__inner cta-block reveal">
+        <h2 class="cta-block__title">Если вам нужен сайт, который будет понятен людям и поможет вам получать клиентов — напишите мне</h2>
+        <p class="cta-block__text">Разберём вашу задачу и соберём решение без лишней сложности</p>
+        <div class="cta-block__actions">
+          <a class="btn btn--primary" href="https://t.me/yourname">Написать мне</a>
+          <a class="btn btn--ghost" href="#projects">Посмотреть проекты</a>
+        </div>
+        <div class="contacts">
+          <p><span class="contacts__label">Telegram</span> <a href="https://t.me/yourname">@yourname</a></p>
+          <p><span class="contacts__label">Email</span> <a href="mailto:your@email.com">your@email.com</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Вайбкодер · сайты для людей</p>
+  </footer>
+
+  <script>
+    (function () {
+      var btn = document.querySelector('.nav-toggle');
+      var panel = document.getElementById('mobile-nav');
+      if (!btn || !panel) return;
+      btn.addEventListener('click', function () {
+        var open = btn.getAttribute('aria-expanded') === 'true';
+        btn.setAttribute('aria-expanded', String(!open));
+        panel.hidden = open;
+        document.body.classList.toggle('nav-open', !open);
+      });
+      panel.querySelectorAll('a').forEach(function (a) {
+        a.addEventListener('click', function () {
+          btn.setAttribute('aria-expanded', 'false');
+          panel.hidden = true;
+          document.body.classList.remove('nav-open');
+        });
+      });
+    })();
+
+    (function () {
+      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+      var nodes = document.querySelectorAll('.section .reveal, .manifest .reveal');
+      if (!nodes.length) return;
+      var obs = new IntersectionObserver(
+        function (entries) {
+          entries.forEach(function (e) {
+            if (e.isIntersecting) {
+              e.target.classList.add('is-visible');
+              obs.unobserve(e.target);
+            }
+          });
+        },
+        { rootMargin: '0px 0px -8% 0px', threshold: 0.08 }
+      );
+      nodes.forEach(function (el) {
+        obs.observe(el);
+      });
+    })();
+
+    (function () {
+      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+      var hero = document.querySelector('.hero');
+      var layers = hero ? hero.querySelectorAll('[data-parallax]') : null;
+      if (!hero || !layers || !layers.length) return;
+
+      var ticking = false;
+      function update() {
+        ticking = false;
+        var rect = hero.getBoundingClientRect();
+        var vh = window.innerHeight || 0;
+        var start = vh * 0.92;
+        var t = (start - rect.top) / (rect.height + vh * 0.35);
+        t = Math.max(0, Math.min(1, t));
+
+        layers.forEach(function (el) {
+          var d = parseFloat(el.getAttribute('data-parallax'), 10) || 0;
+          var y = (t - 0.5) * 2 * d * 56;
+          el.style.transform = 'translate3d(0, ' + y.toFixed(2) + 'px, 0)';
+        });
+      }
+
+      function onScroll() {
+        if (!ticking) {
+          ticking = true;
+          requestAnimationFrame(update);
+        }
+      }
+
+      window.addEventListener('scroll', onScroll, { passive: true });
+      window.addEventListener('resize', onScroll, { passive: true });
+      update();
+    })();
+
+    (function () {
+      var h1 = document.getElementById('hero-heading');
+      if (!h1) return;
+      var contentEl = h1.querySelector('.hero-type__content');
+      var cursorEl = h1.querySelector('.hero-type__cursor');
+      if (!contentEl || !cursorEl) return;
+
+      var prefix = 'Делаю сайты, которые ';
+      var mid = 'понятны людям';
+      var suffix = ' и помогают вам получать клиентов';
+      var full = prefix + mid + suffix;
+
+      function escapeHtml(s) {
+        var d = document.createElement('div');
+        d.textContent = s;
+        return d.innerHTML;
+      }
+
+      function buildHTML(charCount) {
+        charCount = Math.max(0, Math.min(charCount, full.length));
+        var slice = full.slice(0, charCount);
+        if (charCount <= prefix.length) {
+          return escapeHtml(slice);
+        }
+        if (charCount <= prefix.length + mid.length) {
+          return (
+            escapeHtml(prefix) +
+            '<span class="hero__title-highlight">' +
+            escapeHtml(slice.slice(prefix.length)) +
+            '</span>'
+          );
+        }
+        return (
+          escapeHtml(prefix) +
+          '<span class="hero__title-highlight">' +
+          escapeHtml(mid) +
+          '</span>' +
+          escapeHtml(slice.slice(prefix.length + mid.length))
+        );
+      }
+
+      function finish() {
+        h1.classList.add('hero-type--complete');
+        contentEl.innerHTML = buildHTML(full.length);
+      }
+
+      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+        finish();
+        return;
+      }
+
+      var typingSpeed = 48;
+      var initialDelay = 280;
+      var i = 0;
+      var started = false;
+
+      function tick() {
+        if (i >= full.length) {
+          finish();
+          return;
+        }
+        i += 1;
+        contentEl.innerHTML = buildHTML(i);
+        window.setTimeout(tick, typingSpeed);
+      }
+
+      function start() {
+        if (started) return;
+        started = true;
+        window.setTimeout(tick, initialDelay);
+      }
+
+      var obs = new IntersectionObserver(
+        function (entries) {
+          entries.forEach(function (e) {
+            if (e.isIntersecting) {
+              start();
+              obs.disconnect();
+            }
+          });
+        },
+        { threshold: 0.12 }
+      );
+      obs.observe(h1);
+    })();
+  </script>
+</body>
+</html>
